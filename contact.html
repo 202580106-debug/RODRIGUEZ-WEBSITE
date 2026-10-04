@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Peanut Baterbonia</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="logo" href="index.html">🥜 Peanut Baterbonia</a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="project.html">Products</a>
+        <a href="tribute.html">Bobet</a>
+        <a class="active" href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="page-title">
+    <div class="wrap">
+      <h1>Order or Say Hello</h1>
+      <p>Pick a flavor, tell us how many, and send it over.</p>
+    </div>
+  </div>
+
+  <section>
+    <div class="wrap two-col" style="align-items:start;">
+
+      <div class="box">
+        <h2>Order Form</h2>
+        
+        <form action="mailto:gelorodriguez@gmail.com" method="post" enctype="text/plain">
+          <div>
+            <label for="name">Angelo Rodriguez</label>
+            <input type="text" id="name" name="Name" placeholder="Juan Dela Cruz" required>
+          </div>
+          <div>
+            <label for="email">Your email</label>
+            <input type="email" id="email" name="Email" placeholder="you@email.com" required>
+          </div>
+          <div>
+            <label for="flavor">Flavor</label>
+            <select id="flavor" name="Flavor">
+              <option>Classic Creamy</option>
+              <option>Crunchy Roast</option>
+              <option>Honey Roast</option>
+              <option>Choco Crunch</option>
+              <option>Siling Labuyo Kick</option>
+              <option>All five (the full lineup)</option>
+            </select>
+          </div>
+          <div>
+            <label for="qty">Number of jars</label>
+            <input type="number" id="qty" name="Quantity" min="1" max="20" value="1">
+          </div>
+          <div>
+            <label for="msg">Message (optional)</label>
+            <textarea id="msg" name="Message" placeholder="Anything we should know?"></textarea>
+          </div>
+          <button class="btn btn-dark" type="submit">Send Order</button>
+        </form>
+      </div>
+
+      <div>
+        <h2>Other Ways to Reach Us</h2>
+        <p>Questions, feedback, or just want to talk peanut butter? We'd love to hear from you.</p>
+        <div class="box">
+          <p><strong>Email:</strong> your-email@example.com</p>
+          <p><strong>Facebook:</strong> Peanut Baterbonia</p>
+          <p><strong>Hours:</strong> Monday to Saturday, 8 AM to 6 PM</p>
+        </div>
+        <p class="note" style="margin-top:16px;">This is a school project. No real orders are processed.</p>
+        <div class="btn-row">
+          <a class="btn btn-dark" href="project.html">Back to Products</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <p>Made in honor of <a href="tribute.html">Rene Clert "Bobet" Baterbonia</a>.</p>
+    <p>&copy; 2026 Peanut Baterbonia &middot; A school project, not a real business.</p>
+    <p><a href="landing.html">Back to start</a></p>
+  </footer>
+
+</body>
+</html>
